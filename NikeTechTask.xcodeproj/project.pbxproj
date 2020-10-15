@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		AC1E6351F9D190EC1E83C6DB /* Pods_NikeTechTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798021FB331E8A9A41ADB14 /* Pods_NikeTechTaskTests.framework */; };
+		B1F3B03549F18AE40423D54A /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B171748DD1DC727A36EE /* Api.swift */; };
+		B1F3B0420E6CFE410FFC8435 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3BB3B57953E1ABFF48F56 /* Endpoint.swift */; };
+		B1F3B17DE4F2E19AD6C26043 /* MainFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B31F0388F355C4C1D6AA /* MainFlowController.swift */; };
 		B1F3B191C9194B8C0480E14A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B8D5DA5E43C9F2935BB6 /* AppDelegate.swift */; };
+		B1F3B1D3D59629F5EF31B03E /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B5F19567E9D711159D57 /* AlbumListViewModel.swift */; };
+		B1F3B201FE7111C72785DBFC /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B74AECA01048FC94CCFF /* AlbumTableViewCell.swift */; };
 		B1F3B3490F5250058DE223E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F3BC77F6C08413C0C7F228 /* Assets.xcassets */; };
+		B1F3B3C4B943487B1847C496 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3BC9DDC233E3DFD3C4967 /* Feed.swift */; };
 		B1F3B42C917CA6B3C4607477 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B1F3B5A1DCA19668FC0092F4 /* .gitignore */; };
+		B1F3B43512DD8312472A64F2 /* AlbumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3BF3676A53900C877C9BF /* AlbumDetailsViewController.swift */; };
+		B1F3B5EDCF81A7B2276950B4 /* AlbumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B99CD1F5973A76BA7573 /* AlbumService.swift */; };
+		B1F3B60F93D05A28819299E0 /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B301DCDCB63B392CFD7D /* AlbumListViewController.swift */; };
+		B1F3B703C7154673EC1FF6C8 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B327B7999F810F1E8FBE /* Genre.swift */; };
+		B1F3B744857F46AE9238567E /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B9800EE1DECE8780A680 /* AlbumListView.swift */; };
+		B1F3B75F2C0D2D4C9AEE4411 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B8E13A07B2AA309C19B8 /* Client.swift */; };
+		B1F3B7BE86EF2A2D6537D452 /* ClientSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B6F7CA0A9F21E6C99B76 /* ClientSettings.swift */; };
+		B1F3B8E5400A67676256E380 /* AlbumDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B3F3893A207C60D0AEAF /* AlbumDetailsViewModel.swift */; };
+		B1F3BA5BB0BFF8D3CEC68AB7 /* AlbumFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3BC94ABF1F58C8B970AB3 /* AlbumFlowController.swift */; };
+		B1F3BAE10D1DBC99B393249A /* AlbumDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B1BBDA1FFB435B35D24F /* AlbumDetailsView.swift */; };
 		B1F3BBD34026887689327AC4 /* NikeTechTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B80195BA11F3EF7F2C64 /* NikeTechTaskTests.swift */; };
 		B1F3BDA30868CBA6699F8F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F3BCBE325ECA89CFCD4B3A /* LaunchScreen.storyboard */; };
 		B1F3BDD367632653A66BE3F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B145D3B17A3746A62416 /* ViewController.swift */; };
+		B1F3BE113B3582C0F6CFEB62 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B749109861F61E4EF09B /* Album.swift */; };
+		B1F3BF16E9D276AB8C039765 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3BE93D41C155619A8ECE9 /* UIViewExtension.swift */; };
 		BE834476CE1CE814F1E89B66 /* Pods_NikeTechTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2F97F55A6A718311742796 /* Pods_NikeTechTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,14 +54,32 @@
 		8798021FB331E8A9A41ADB14 /* Pods_NikeTechTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NikeTechTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F3B10B0E55CC1F6AB0A589 /* NikeTechTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeTechTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F3B145D3B17A3746A62416 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1F3B171748DD1DC727A36EE /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		B1F3B1BBDA1FFB435B35D24F /* AlbumDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailsView.swift; sourceTree = "<group>"; };
+		B1F3B301DCDCB63B392CFD7D /* AlbumListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
+		B1F3B31F0388F355C4C1D6AA /* MainFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFlowController.swift; sourceTree = "<group>"; };
+		B1F3B327B7999F810F1E8FBE /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		B1F3B37E899CE3711F9114C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1F3B3DC6C7B7CFE6BEF770F /* NikeTechTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeTechTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F3B3F3893A207C60D0AEAF /* AlbumDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewModel.swift; sourceTree = "<group>"; };
 		B1F3B540051C6743368E646B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B1F3B5A1DCA19668FC0092F4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		B1F3B5F19567E9D711159D57 /* AlbumListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
 		B1F3B6724FF0DE631A22B341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B1F3B6F7CA0A9F21E6C99B76 /* ClientSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientSettings.swift; sourceTree = "<group>"; };
+		B1F3B749109861F61E4EF09B /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		B1F3B74AECA01048FC94CCFF /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 		B1F3B80195BA11F3EF7F2C64 /* NikeTechTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeTechTaskTests.swift; sourceTree = "<group>"; };
 		B1F3B8D5DA5E43C9F2935BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1F3B8E13A07B2AA309C19B8 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		B1F3B9800EE1DECE8780A680 /* AlbumListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
+		B1F3B99CD1F5973A76BA7573 /* AlbumService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumService.swift; sourceTree = "<group>"; };
+		B1F3BB3B57953E1ABFF48F56 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		B1F3BC77F6C08413C0C7F228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1F3BC94ABF1F58C8B970AB3 /* AlbumFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumFlowController.swift; sourceTree = "<group>"; };
+		B1F3BC9DDC233E3DFD3C4967 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		B1F3BE93D41C155619A8ECE9 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B1F3BF3676A53900C877C9BF /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +122,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3C7C912425387261008C9C5D /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				B1F3B31F0388F355C4C1D6AA /* MainFlowController.swift */,
+				B1F3BC94ABF1F58C8B970AB3 /* AlbumFlowController.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		3C7C91252538727C008C9C5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B1F3B99CD1F5973A76BA7573 /* AlbumService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B1F3B18469C02BB577DC4558 /* AlbumDetails */ = {
+			isa = PBXGroup;
+			children = (
+				B1F3B1BBDA1FFB435B35D24F /* AlbumDetailsView.swift */,
+				B1F3B3F3893A207C60D0AEAF /* AlbumDetailsViewModel.swift */,
+				B1F3BF3676A53900C877C9BF /* AlbumDetailsViewController.swift */,
+			);
+			path = AlbumDetails;
+			sourceTree = "<group>";
+		};
+		B1F3B2E1BE57947A10D52563 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1F3BE93D41C155619A8ECE9 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B1F3B70DABF7128108AEC749 /* NikeTechTaskTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +164,25 @@
 				B1F3B80195BA11F3EF7F2C64 /* NikeTechTaskTests.swift */,
 			);
 			path = NikeTechTaskTests;
+			sourceTree = "<group>";
+		};
+		B1F3B95EDEDE0DB8362D926E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B1F3BD3E4B6B158551EA682F /* AlbumList */,
+				B1F3B18469C02BB577DC4558 /* AlbumDetails */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B1F3BB5C81D1FA47B9A58E2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1F3B749109861F61E4EF09B /* Album.swift */,
+				B1F3B327B7999F810F1E8FBE /* Genre.swift */,
+				B1F3BC9DDC233E3DFD3C4967 /* Feed.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		B1F3BB6AD8C5C3D8AE0D8260 = {
@@ -116,16 +206,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B1F3BD3E4B6B158551EA682F /* AlbumList */ = {
+			isa = PBXGroup;
+			children = (
+				B1F3B9800EE1DECE8780A680 /* AlbumListView.swift */,
+				B1F3B5F19567E9D711159D57 /* AlbumListViewModel.swift */,
+				B1F3B301DCDCB63B392CFD7D /* AlbumListViewController.swift */,
+				B1F3B74AECA01048FC94CCFF /* AlbumTableViewCell.swift */,
+			);
+			path = AlbumList;
+			sourceTree = "<group>";
+		};
 		B1F3BD929B62E2A1AD967143 /* NikeTechTask */ = {
 			isa = PBXGroup;
 			children = (
+				3C7C91252538727C008C9C5D /* Services */,
+				3C7C912425387261008C9C5D /* Flows */,
 				B1F3B6724FF0DE631A22B341 /* Info.plist */,
 				B1F3BC77F6C08413C0C7F228 /* Assets.xcassets */,
 				B1F3BCBE325ECA89CFCD4B3A /* LaunchScreen.storyboard */,
 				B1F3B8D5DA5E43C9F2935BB6 /* AppDelegate.swift */,
 				B1F3B145D3B17A3746A62416 /* ViewController.swift */,
+				B1F3BFF458B915D42B923898 /* Networking */,
+				B1F3BB5C81D1FA47B9A58E2D /* Models */,
+				B1F3B95EDEDE0DB8362D926E /* UI */,
+				B1F3B2E1BE57947A10D52563 /* Extensions */,
 			);
 			path = NikeTechTask;
+			sourceTree = "<group>";
+		};
+		B1F3BFF458B915D42B923898 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B1F3B171748DD1DC727A36EE /* Api.swift */,
+				B1F3B8E13A07B2AA309C19B8 /* Client.swift */,
+				B1F3B6F7CA0A9F21E6C99B76 /* ClientSettings.swift */,
+				B1F3BB3B57953E1ABFF48F56 /* Endpoint.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +409,24 @@
 			files = (
 				B1F3B191C9194B8C0480E14A /* AppDelegate.swift in Sources */,
 				B1F3BDD367632653A66BE3F8 /* ViewController.swift in Sources */,
+				B1F3B17DE4F2E19AD6C26043 /* MainFlowController.swift in Sources */,
+				B1F3B03549F18AE40423D54A /* Api.swift in Sources */,
+				B1F3B75F2C0D2D4C9AEE4411 /* Client.swift in Sources */,
+				B1F3B7BE86EF2A2D6537D452 /* ClientSettings.swift in Sources */,
+				B1F3B0420E6CFE410FFC8435 /* Endpoint.swift in Sources */,
+				B1F3BAE10D1DBC99B393249A /* AlbumDetailsView.swift in Sources */,
+				B1F3B8E5400A67676256E380 /* AlbumDetailsViewModel.swift in Sources */,
+				B1F3B43512DD8312472A64F2 /* AlbumDetailsViewController.swift in Sources */,
+				B1F3B744857F46AE9238567E /* AlbumListView.swift in Sources */,
+				B1F3B1D3D59629F5EF31B03E /* AlbumListViewModel.swift in Sources */,
+				B1F3B60F93D05A28819299E0 /* AlbumListViewController.swift in Sources */,
+				B1F3BA5BB0BFF8D3CEC68AB7 /* AlbumFlowController.swift in Sources */,
+				B1F3B5EDCF81A7B2276950B4 /* AlbumService.swift in Sources */,
+				B1F3BE113B3582C0F6CFEB62 /* Album.swift in Sources */,
+				B1F3BF16E9D276AB8C039765 /* UIViewExtension.swift in Sources */,
+				B1F3B703C7154673EC1FF6C8 /* Genre.swift in Sources */,
+				B1F3B201FE7111C72785DBFC /* AlbumTableViewCell.swift in Sources */,
+				B1F3B3C4B943487B1847C496 /* Feed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +608,7 @@
 			baseConfigurationReference = 4DD68E0A851747B8EBF2B393 /* Pods-NikeTechTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9ADMJK938;
 				INFOPLIST_FILE = NikeTechTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.nadratowskikarol.NikeTechTask;
@@ -486,6 +623,7 @@
 			baseConfigurationReference = 1A9F1D300D25EA52CA8FF101 /* Pods-NikeTechTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NikeTechTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.nadratowskikarol.NikeTechTask;
