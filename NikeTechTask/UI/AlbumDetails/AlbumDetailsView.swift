@@ -39,6 +39,14 @@ class AlbumDetailsView: UIView {
         return label
     }()
 
+    private var releaseDateLabel: UILabel = {
+        let label = UILabel()
+        label.font = .systemFont(ofSize: 13, weight: .medium)
+        label.textAlignment = .left
+        label.lineBreakMode = .byWordWrapping
+        return label
+    }()
+
     private var genresLabel: UILabel = {
         let label = UILabel()
         label.font = .systemFont(ofSize: 13, weight: .medium)
@@ -83,7 +91,7 @@ class AlbumDetailsView: UIView {
         backgroundColor = .white
         addSubviews(scrollView, goToItunesButton)
         scrollView.addSubview(scrollViewContainer)
-        scrollViewContainer.addSubviews(albumNameLabel, artistNameLabel, genresLabel, copyrightLabel, albumImage)
+        scrollViewContainer.addSubviews(albumImage, copyrightLabel, albumNameLabel, artistNameLabel, releaseDateLabel, genresLabel)
         configure()
         applyConstraints()
     }
@@ -92,10 +100,12 @@ class AlbumDetailsView: UIView {
         if let imageUrl = viewModel.imageURL {
             albumImage.kf.setImage(with: imageUrl)
         }
+        copyrightLabel.text = viewModel.copyright
         albumNameLabel.text = viewModel.albumName
         artistNameLabel.text = viewModel.artistName
+        releaseDateLabel.text = viewModel.releaseDate
         genresLabel.text = viewModel.genres
-        copyrightLabel.text = viewModel.copyright
+
     }
 
     private func applyConstraints() {
@@ -138,8 +148,14 @@ class AlbumDetailsView: UIView {
             make.width.equalToSuperview().multipliedBy(0.7)
         }
 
-        genresLabel.snp.makeConstraints { make in
+        releaseDateLabel.snp.makeConstraints { make in
             make.top.equalTo(artistNameLabel.snp.bottom).offset(5)
+            make.leading.equalToSuperview().inset(35)
+            make.trailing.equalToSuperview().inset(20)
+        }
+
+        genresLabel.snp.makeConstraints { make in
+            make.top.equalTo(releaseDateLabel.snp.bottom).offset(5)
             make.leading.equalToSuperview().inset(35)
             make.trailing.equalToSuperview().inset(20)
             make.bottom.equalToSuperview()
