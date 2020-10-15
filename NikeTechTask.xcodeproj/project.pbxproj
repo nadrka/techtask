@@ -78,7 +78,6 @@
 				3A7D258B2E785C940867D840 /* Pods-NikeTechTaskTests.debug.xcconfig */,
 				84211A3ACA2BDE60011F13B4 /* Pods-NikeTechTaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -189,7 +188,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = B1F3BB6AD8C5C3D8AE0D8260;
 			productRefGroup = B1F3BBB39EE13A5D8B225E78 /* Products */;
@@ -402,8 +403,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -493,7 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.nadratowskikarol.NikeTechTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,7 +507,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.nadratowskikarol.NikeTechTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -530,6 +530,7 @@
 				B1F3BC6167D470E5F187EA5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1F3BFB39EE956CC1B188596 /* Build configuration list for PBXNativeTarget "NikeTechTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +539,7 @@
 				B1F3B907102A1B7C8DE6198B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
