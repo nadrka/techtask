@@ -25,10 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="303bcc46-9c66-4375-94bc-f2a669df5f3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="303bcc46-9c66-4375-94bc-f2a669df5f3c" name="Default Changelist" comment="Embed album details view inside scroll view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NikeTechTask.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/NikeTechTask.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NikeTechTask/Models/Album.swift" beforeDir="false" afterPath="$PROJECT_DIR$/NikeTechTask/Models/Album.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NikeTechTask/Models/Genre.swift" beforeDir="false" afterPath="$PROJECT_DIR$/NikeTechTask/Models/Genre.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NikeTechTask/UI/AlbumDetails/AlbumDetailsView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/NikeTechTask/UI/AlbumDetails/AlbumDetailsView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NikeTechTask/UI/AlbumDetails/AlbumDetailsViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/NikeTechTask/UI/AlbumDetails/AlbumDetailsViewModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NikeTechTaskTests/NikeTechTaskTests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +58,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="CocoaPods" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.NikeTechTask">
     <configuration name="NikeTechTask" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NikeTechTask" TARGET_NAME="NikeTechTask" CONFIG_NAME="Debug" SCHEME_NAME="NikeTechTask" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="NikeTechTask" RUN_TARGET_NAME="NikeTechTask" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
@@ -62,6 +68,20 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AlbumDetailsTests" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NikeTechTask" TARGET_NAME="NikeTechTaskTests" CONFIG_NAME="Debug" SCHEME_NAME="AlbumDetailsTests" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" TEST_CLASS="AlbumDetailsTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.NikeTechTask" />
+      <item itemvalue="XCTest.AlbumDetailsTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="XCTest.AlbumDetailsTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,8 +94,16 @@
       <workItem from="1602761768352" duration="1669000" />
       <workItem from="1602763574086" duration="1888000" />
       <workItem from="1602765537671" duration="16909000" />
-      <workItem from="1602794163789" duration="1355000" />
+      <workItem from="1602794163789" duration="3058000" />
     </task>
+    <task id="LOCAL-00001" summary="Embed album details view inside scroll view">
+      <created>1602796515254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602796515254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,43 +133,52 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Embed album details view inside scroll view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Embed album details view inside scroll view" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602765466095">
-      <screen x="-71" y="-1057" width="1920" height="1057" />
+    <state x="651" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602796757689">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="627" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-71.-1057.1920.1057/0.23.1792.1017@-71.-1057.1920.1057" timestamp="1602765466095" />
-    <state width="1750" height="290" key="GridCell.Tab.0.bottom" timestamp="1602796324207">
+    <state x="651" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602796757689" />
+    <state x="100" y="123" width="1592" height="817" key="DiffContextDialog" timestamp="1602796793064">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.bottom/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602796324207" />
-    <state width="1750" height="290" key="GridCell.Tab.0.center" timestamp="1602796324206">
+    <state x="100" y="123" width="1592" height="817" key="DiffContextDialog/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602796793064" />
+    <state width="1750" height="290" key="GridCell.Tab.0.bottom" timestamp="1602798103232">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.center/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602796324206" />
-    <state width="1750" height="290" key="GridCell.Tab.0.left" timestamp="1602796324206">
+    <state width="1750" height="290" key="GridCell.Tab.0.bottom/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602798103232" />
+    <state width="1750" height="290" key="GridCell.Tab.0.center" timestamp="1602798103231">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.left/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602796324206" />
-    <state width="1750" height="290" key="GridCell.Tab.0.right" timestamp="1602796324207">
+    <state width="1750" height="290" key="GridCell.Tab.0.center/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602798103231" />
+    <state width="1750" height="290" key="GridCell.Tab.0.left" timestamp="1602798103231">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.right/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602796324207" />
-    <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1602785941625">
+    <state width="1750" height="290" key="GridCell.Tab.0.left/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602798103231" />
+    <state width="1750" height="290" key="GridCell.Tab.0.right" timestamp="1602798103231">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.bottom/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785941625" />
-    <state width="1750" height="342" key="GridCell.Tab.1.center" timestamp="1602785941624">
+    <state width="1750" height="290" key="GridCell.Tab.0.right/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602798103231" />
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1602797848166">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.center/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785941624" />
-    <state width="1750" height="342" key="GridCell.Tab.1.left" timestamp="1602785941624">
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602797848166" />
+    <state width="1750" height="342" key="GridCell.Tab.1.center" timestamp="1602797848166">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.left/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785941624" />
-    <state width="1750" height="342" key="GridCell.Tab.1.right" timestamp="1602785941624">
+    <state width="1750" height="342" key="GridCell.Tab.1.center/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602797848166" />
+    <state width="1750" height="342" key="GridCell.Tab.1.left" timestamp="1602797848166">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.right/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785941624" />
+    <state width="1750" height="342" key="GridCell.Tab.1.left/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602797848166" />
+    <state width="1750" height="342" key="GridCell.Tab.1.right" timestamp="1602797848166">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.right/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602797848166" />
     <state x="398" y="-890" key="SettingsEditor" timestamp="1602762669041">
       <screen x="-71" y="-1057" width="1920" height="1057" />
     </state>
@@ -158,18 +195,18 @@
       <screen x="-71" y="-1057" width="1920" height="1057" />
     </state>
     <state x="596" y="-896" width="586" height="735" key="find.popup/-71.-1057.1920.1057/0.23.1792.1017@-71.-1057.1920.1057" timestamp="1602764125630" />
-    <state x="583" y="249" width="626" height="651" key="search.everywhere.popup" timestamp="1602773777180">
+    <state x="583" y="249" width="670" height="651" key="search.everywhere.popup" timestamp="1602797333136">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="554" y="-822" width="670" height="676" key="search.everywhere.popup/-71.-1057.1920.1057/0.23.1792.1017@-71.-1057.1920.1057" timestamp="1602764118896" />
-    <state x="583" y="249" width="626" height="651" key="search.everywhere.popup/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602773777180" />
+    <state x="583" y="249" width="670" height="651" key="search.everywhere.popup/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602797333136" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/NikeTechTask/UI/AlbumDetails/AlbumDetailsViewModel.swift</url>
-          <line>45</line>
+          <line>51</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>

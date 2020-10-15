@@ -6,6 +6,7 @@ protocol AlbumDetailsViewModel {
     var artistName: String { get }
     var genres: String { get }
     var copyright: String { get }
+    var releaseDate: String { get }
     func openITunes()
 }
 
@@ -37,8 +38,13 @@ final class DefaultAlbumDetailsViewModel: AlbumDetailsViewModel {
 
         return "Genres: \(genres)"
     }
+
     var copyright: String {
         album.copyright ?? ""
+    }
+
+    var releaseDate: String {
+        "Release date: \(album.releaseDate ?? "")"
     }
 
     func openITunes() {

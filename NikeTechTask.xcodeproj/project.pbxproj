@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4460D02538F6CB00A0120D /* AlbumDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3BEA4B5B6AA8CE79A5EEE /* AlbumDetailsTests.swift */; };
 		AC1E6351F9D190EC1E83C6DB /* Pods_NikeTechTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798021FB331E8A9A41ADB14 /* Pods_NikeTechTaskTests.framework */; };
 		B1F3B03549F18AE40423D54A /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B171748DD1DC727A36EE /* Api.swift */; };
 		B1F3B0420E6CFE410FFC8435 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3BB3B57953E1ABFF48F56 /* Endpoint.swift */; };
@@ -27,7 +28,6 @@
 		B1F3B8E5400A67676256E380 /* AlbumDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B3F3893A207C60D0AEAF /* AlbumDetailsViewModel.swift */; };
 		B1F3BA5BB0BFF8D3CEC68AB7 /* AlbumFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3BC94ABF1F58C8B970AB3 /* AlbumFlowController.swift */; };
 		B1F3BAE10D1DBC99B393249A /* AlbumDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B1BBDA1FFB435B35D24F /* AlbumDetailsView.swift */; };
-		B1F3BBD34026887689327AC4 /* NikeTechTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B80195BA11F3EF7F2C64 /* NikeTechTaskTests.swift */; };
 		B1F3BDA30868CBA6699F8F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F3BCBE325ECA89CFCD4B3A /* LaunchScreen.storyboard */; };
 		B1F3BDD367632653A66BE3F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B145D3B17A3746A62416 /* ViewController.swift */; };
 		B1F3BE113B3582C0F6CFEB62 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F3B749109861F61E4EF09B /* Album.swift */; };
@@ -69,7 +69,6 @@
 		B1F3B6F7CA0A9F21E6C99B76 /* ClientSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientSettings.swift; sourceTree = "<group>"; };
 		B1F3B749109861F61E4EF09B /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		B1F3B74AECA01048FC94CCFF /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
-		B1F3B80195BA11F3EF7F2C64 /* NikeTechTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeTechTaskTests.swift; sourceTree = "<group>"; };
 		B1F3B8D5DA5E43C9F2935BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1F3B8E13A07B2AA309C19B8 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		B1F3B9800EE1DECE8780A680 /* AlbumListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
@@ -79,6 +78,7 @@
 		B1F3BC94ABF1F58C8B970AB3 /* AlbumFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumFlowController.swift; sourceTree = "<group>"; };
 		B1F3BC9DDC233E3DFD3C4967 /* TopAlbumsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopAlbumsInfo.swift; sourceTree = "<group>"; };
 		B1F3BE93D41C155619A8ECE9 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B1F3BEA4B5B6AA8CE79A5EEE /* AlbumDetailsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailsTests.swift; sourceTree = "<group>"; };
 		B1F3BF3676A53900C877C9BF /* AlbumDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,7 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				B1F3B540051C6743368E646B /* Info.plist */,
-				B1F3B80195BA11F3EF7F2C64 /* NikeTechTaskTests.swift */,
+				B1F3BEA4B5B6AA8CE79A5EEE /* AlbumDetailsTests.swift */,
 			);
 			path = NikeTechTaskTests;
 			sourceTree = "<group>";
@@ -276,6 +276,7 @@
 				B1F3BBD57F3E47BFC210670A /* Sources */,
 				B1F3BC58DB7D1B9EC8D614E5 /* Frameworks */,
 				B1F3B97035F5988B90BCAB30 /* Resources */,
+				23E4E412C0DFAD67DF3012AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -336,6 +337,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		23E4E412C0DFAD67DF3012AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NikeTechTaskTests/Pods-NikeTechTaskTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NikeTechTaskTests/Pods-NikeTechTaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5C6DC1C3807B2AF09B516665 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,7 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F3BBD34026887689327AC4 /* NikeTechTaskTests.swift in Sources */,
+				3C4460D02538F6CB00A0120D /* AlbumDetailsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

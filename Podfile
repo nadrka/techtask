@@ -9,6 +9,8 @@ target 'NikeTechTask' do
 
   target 'NikeTechTaskTests' do
     inherit! :search_paths
+    pod 'Quick'
+    pod 'Nimble'
   end
 
 end
