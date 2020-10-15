@@ -1,6 +1,6 @@
 import Foundation
 
-class Feed: Codable {
+class TopAlbumsInfo: Codable {
     private(set) var feed: Albums
 }
 

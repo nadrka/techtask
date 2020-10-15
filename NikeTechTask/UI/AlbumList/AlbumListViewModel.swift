@@ -26,9 +26,9 @@ final class DefaultAlbumListViewModel: AlbumListViewModel {
     func fetchAlbums() {
         albumService.fetchAlbums { [weak self] result in
             switch result {
-            case .success(let feed):
+            case .success(let info):
                 DispatchQueue.main.async {
-                    self?.albums = feed.feed.results
+                    self?.albums = info.feed.results
                     self?.onAlbumsLoaded?()
                 }
             case .failure(let error):

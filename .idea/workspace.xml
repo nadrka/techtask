@@ -21,9 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="303bcc46-9c66-4375-94bc-f2a669df5f3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xcode.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NikeTechTask.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/NikeTechTask.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NikeTechTask/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/NikeTechTask/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NikeTechTask/Models/Feed.swift" beforeDir="false" afterPath="$PROJECT_DIR$/NikeTechTask/Models/TopAlbumsInfo.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NikeTechTask/Services/AlbumService.swift" beforeDir="false" afterPath="$PROJECT_DIR$/NikeTechTask/Services/AlbumService.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NikeTechTask/UI/AlbumList/AlbumListViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/NikeTechTask/UI/AlbumList/AlbumListViewModel.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <updated>1602761766875</updated>
       <workItem from="1602761768352" duration="1669000" />
       <workItem from="1602763574086" duration="1888000" />
-      <workItem from="1602765537671" duration="16401000" />
+      <workItem from="1602765537671" duration="16657000" />
     </task>
     <servers />
   </component>
@@ -92,22 +93,22 @@
       <screen x="-71" y="-1057" width="1920" height="1057" />
     </state>
     <state x="627" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-71.-1057.1920.1057/0.23.1792.1017@-71.-1057.1920.1057" timestamp="1602765466095" />
-    <state width="1750" height="290" key="GridCell.Tab.0.bottom" timestamp="1602785278465">
+    <state width="1750" height="290" key="GridCell.Tab.0.bottom" timestamp="1602785337990">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.bottom/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785278465" />
-    <state width="1750" height="290" key="GridCell.Tab.0.center" timestamp="1602785278464">
+    <state width="1750" height="290" key="GridCell.Tab.0.bottom/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785337990" />
+    <state width="1750" height="290" key="GridCell.Tab.0.center" timestamp="1602785337989">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.center/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785278464" />
-    <state width="1750" height="290" key="GridCell.Tab.0.left" timestamp="1602785278464">
+    <state width="1750" height="290" key="GridCell.Tab.0.center/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785337989" />
+    <state width="1750" height="290" key="GridCell.Tab.0.left" timestamp="1602785337989">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.left/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785278464" />
-    <state width="1750" height="290" key="GridCell.Tab.0.right" timestamp="1602785278465">
+    <state width="1750" height="290" key="GridCell.Tab.0.left/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785337989" />
+    <state width="1750" height="290" key="GridCell.Tab.0.right" timestamp="1602785337989">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.right/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785278465" />
+    <state width="1750" height="290" key="GridCell.Tab.0.right/-71.-1057.1920.1057/0.23.1792.1017@0.23.1792.1017" timestamp="1602785337989" />
     <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1602784612433">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
