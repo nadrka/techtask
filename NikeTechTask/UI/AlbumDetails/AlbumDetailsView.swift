@@ -3,6 +3,15 @@ import UIKit
 class AlbumDetailsView: UIView {
     let viewModel: AlbumDetailsViewModel
 
+    private var scrollView: UIScrollView = {
+        let scroll = UIScrollView()
+        scroll.showsVerticalScrollIndicator = false
+        scroll.alwaysBounceVertical = true
+        return scroll
+    }()
+
+    private let scrollViewContainer = UIView()
+
     private var albumImage: UIImageView = {
         let imageView = UIImageView()
         imageView.layer.cornerRadius = 5
@@ -72,7 +81,9 @@ class AlbumDetailsView: UIView {
 
     private func setupView() {
         backgroundColor = .white
-        addSubviews(albumNameLabel, artistNameLabel, genresLabel, copyrightLabel, albumImage, goToItunesButton)
+        addSubviews(scrollView, goToItunesButton)
+        scrollView.addSubview(scrollViewContainer)
+        scrollViewContainer.addSubviews(albumNameLabel, artistNameLabel, genresLabel, copyrightLabel, albumImage)
         configure()
         applyConstraints()
     }
@@ -88,8 +99,23 @@ class AlbumDetailsView: UIView {
     }
 
     private func applyConstraints() {
+        scrollView.snp.makeConstraints {
+            make in
+            make.top.equalTo(safeAreaLayoutGuide.snp.topMargin)
+            make.leading.trailing.equalToSuperview()
+            make.width.equalToSuperview()
+            make.bottom.equalTo(goToItunesButton.snp.top).offset(-10)
+        }
+
+        scrollViewContainer.snp.makeConstraints {
+            make in
+            make.top.bottom.equalToSuperview()
+            make.leading.trailing.equalToSuperview()
+            make.width.equalToSuperview()
+        }
+
         albumImage.snp.makeConstraints { make in
-            make.top.equalTo(safeAreaLayoutGuide.snp.topMargin).inset(20)
+            make.top.equalToSuperview().inset(20)
             make.leading.trailing.equalToSuperview().inset(30)
             make.height.equalTo(albumImage.snp.width)
             make.centerX.equalToSuperview()
@@ -101,7 +127,7 @@ class AlbumDetailsView: UIView {
         }
 
         albumNameLabel.snp.makeConstraints { make in
-            make.top.equalTo(copyrightLabel.snp.bottom).offset(15)
+            make.top.equalTo(copyrightLabel.snp.bottom).offset(12)
             make.leading.equalToSuperview().inset(35)
             make.width.equalToSuperview().multipliedBy(0.7)
         }
@@ -116,6 +142,7 @@ class AlbumDetailsView: UIView {
             make.top.equalTo(artistNameLabel.snp.bottom).offset(5)
             make.leading.equalToSuperview().inset(35)
             make.trailing.equalToSuperview().inset(20)
+            make.bottom.equalToSuperview()
         }
 
         goToItunesButton.snp.makeConstraints { make in
